@@ -1,0 +1,1 @@
+“I believe people in this field struggle with Y problem, and it’s painful enough that they would change tools or pay for a solution.”
