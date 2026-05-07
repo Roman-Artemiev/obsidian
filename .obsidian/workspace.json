@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "startup/skills/check-domain-availability/SKILL.md",
+                "file": "startup/-- Meet App/interviews/Adam Salficky.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SKILL"
+              "title": "Adam Salficky"
             }
           }
         ]
@@ -188,6 +188,13 @@
   },
   "active": "18b035c461f49363",
   "lastOpenFiles": [
+    "startup/-- Meet App/Untitled.md",
+    "startup/-- Meet App/interviews/Adam Salficky.md",
+    "startup/-- Meet App/interviews",
+    "startup/templates/Naming patterns.md",
+    "startup/-- Meet App",
+    "Untitled",
+    "startup/skills/check-domain-availability/SKILL.md",
     "linkedin/Ideas.md",
     "startup/skills/check-domain-availability/scripts/__pycache__/check_domains.cpython-314.pyc",
     "startup/skills/check-domain-availability/scripts/__pycache__",
@@ -195,15 +202,10 @@
     "startup/skills/check-domain-availability/scripts",
     "startup/skills/check-domain-availability/agents/openai.yaml",
     "startup/skills/check-domain-availability/agents",
-    "startup/skills/check-domain-availability/SKILL.md",
     "startup/skills/check-domain-availability",
     "Notebook.md",
-    "linkedin/skills",
     "2026-05-07.md",
     "startup/skills/generate-startup-names/SKILL.md",
-    "startup/templates/Naming patterns.md",
-    "startup/skills/generate-startup-names/agents/openai.yaml",
-    "startup/skills/generate-startup-names/agents",
     "Untitled.md",
     "Untitled.canvas",
     "linkedin/Test.md",

@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiUsers",
       "LiFolderUp",
       "LiFlaskConical",
       "LiLinkedin",
@@ -37,5 +38,6 @@
   "linkedin": "LiLinkedin",
   "startup/skills": "LiFlaskConical",
   "startup/templates": "LiFolderUp",
-  "linkedin/skills": "LiFlaskConical"
+  "linkedin/skills": "LiFlaskConical",
+  "startup/-- Meet App": "LiUsers"
 }
