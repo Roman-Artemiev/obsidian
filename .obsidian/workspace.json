@@ -35,7 +35,8 @@
               "title": "Workflow"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,11 +202,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "564e705e3543166b",
+  "active": "d6eae1623255880c",
   "lastOpenFiles": [
+    "linkedin/Ideas.md",
     "Create pain hypothesis.md",
     "Workflow.md",
-    "linkedin/Ideas.md",
     "linkedin/Notes.md",
     "Untitled",
     "startup/-- Meet App/Tasks.md",
