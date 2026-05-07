@@ -1,4 +1,4 @@
 interface:
   display_name: "Check Domain Availability"
-  short_description: "Check global domains and require free .cz too."
-  default_prompt: "Use $check-domain-availability to validate name ideas and keep only options with a free global domain plus free .cz."
+  short_description: "Check global domains and rank free .cz higher."
+  default_prompt: "Use $check-domain-availability to validate name ideas, prioritize strong global domains, and treat free .cz as a bonus."

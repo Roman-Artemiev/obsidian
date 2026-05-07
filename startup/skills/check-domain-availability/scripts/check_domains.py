@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check domain availability with priority global TLDs and required .cz."""
+"""Check domain availability with priority global TLDs and bonus .cz."""
 
 from __future__ import annotations
 
@@ -49,7 +49,7 @@ class Result:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Check domain availability and keep names with free global TLD plus free .cz."
+        description="Check domain availability, prioritize free global TLDs, and treat free .cz as a bonus."
     )
     parser.add_argument(
         "--names",
@@ -138,8 +138,11 @@ def build_rows(names: list[str], global_tlds: list[str], timeout: float) -> list
         cz_result = check_domain(name, "cz", timeout)
 
         if best_result.status == "free" and cz_result.status == "free":
+            status = "bonus"
+            notes = "priority global domain appears free and .cz is also free"
+        elif best_result.status == "free":
             status = "keep"
-            notes = "priority global domain and .cz both appear free"
+            notes = f"priority global domain appears free; .cz={cz_result.status}"
         elif best_result.status == "unknown" or cz_result.status == "unknown":
             status = "unknown"
             notes = f"global={best_result.note}; cz={cz_result.note}"

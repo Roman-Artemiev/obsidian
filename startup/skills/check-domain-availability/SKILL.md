@@ -1,13 +1,13 @@
 ---
 name: check-domain-availability
-description: Check startup, product, or brand name domain availability. Use when the user wants to validate candidate names, prioritize globally useful domains, and keep only options that also have a free .cz domain. Do not use this skill for trademark clearance or legal advice.
+description: Check startup, product, or brand name domain availability. Use when the user wants to validate candidate names, prioritize globally useful domains, and treat a free .cz domain as a strong bonus rather than a strict requirement. Do not use this skill for trademark clearance or legal advice.
 ---
 
 # Check Domain Availability
 
 ## Overview
 
-Validate a shortlist of names against priority global TLDs and nice to have a free `.cz` domain as a companion result.
+Validate a shortlist of names against priority global TLDs and treat a free `.cz` domain as a strong bonus.
 
 Default global priority:
 
@@ -17,10 +17,13 @@ Default global priority:
 4. `.app`
 5. `.dev`
 
-Keep a candidate only when:
+Keep a candidate when:
 
 - at least one priority global domain is free
-- the matching nice to have `.cz` domain is also free
+
+Upgrade a candidate when:
+
+- the matching `.cz` domain is also free
 
 ## Workflow
 
@@ -28,8 +31,9 @@ Keep a candidate only when:
 2. Normalize names to lowercase ASCII slugs without spaces.
 3. Check `.cz` plus the priority global TLDs.
 4. Prefer the strongest global result by the priority order above.
-5. Return only candidates where both the best global TLD and `.cz` are free.
-6. If live verification fails or is blocked, state that clearly and mark the result as `unknown` or `manual verification needed`.
+5. Keep candidates with a free priority global TLD even if `.cz` is taken.
+6. Rank candidates with free `.cz` above otherwise equal options.
+7. If live verification fails or is blocked, state that clearly and mark the result as `unknown` or `manual verification needed`.
 
 ## Tooling
 
@@ -61,12 +65,13 @@ Return:
    - `.cz`
    - `status`
    - `notes`
-3. A shortlist of recommended names ordered by domain quality.
+3. A shortlist of recommended names ordered by domain quality, with free `.cz` treated as a bonus.
 
 Status values:
 
-- `keep` when a priority global domain is free and `.cz` is also free
-- `reject` when `.cz` is taken or all priority global domains are taken
+- `bonus` when a priority global domain is free and `.cz` is also free
+- `keep` when a priority global domain is free but `.cz` is taken
+- `reject` when all priority global domains are taken
 - `unknown` when live verification did not produce a reliable answer
 
 ## Boundaries
