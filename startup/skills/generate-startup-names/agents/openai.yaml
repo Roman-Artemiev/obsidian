@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate Startup Names"
+  short_description: "Generate startup, product, and service names from a brief."
+  default_prompt: "Generate startup names from the provided product or company brief."

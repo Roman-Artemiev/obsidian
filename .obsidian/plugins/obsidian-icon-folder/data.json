@@ -6,6 +6,8 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFolderUp",
+      "LiFlaskConical",
       "LiLinkedin",
       "LiStars"
     ],
@@ -32,5 +34,8 @@
     "useInternalPlugins": false
   },
   "startup": "LiStars",
-  "linkedin": "LiLinkedin"
+  "linkedin": "LiLinkedin",
+  "startup/skills": "LiFlaskConical",
+  "startup/templates": "LiFolderUp",
+  "linkedin/skills": "LiFlaskConical"
 }
