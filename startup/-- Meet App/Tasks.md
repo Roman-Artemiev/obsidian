@@ -11,8 +11,8 @@ kanban-plugin: board
 ## To Do
 
 - [ ] [[Create pain hypothesis]]
-- [ ] Decide work hours
 - [ ] Interview 4 more people
+- [ ] Decide work hours
 
 
 ## In Progress

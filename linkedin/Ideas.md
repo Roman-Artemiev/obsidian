@@ -1,0 +1,2 @@
+- Try pattern brake posters
+- Make more oriented for people who organize events

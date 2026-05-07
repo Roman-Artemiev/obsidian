@@ -8,24 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "764aa32e7f6afe97",
+            "id": "564e705e3543166b",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "startup/-- Meet App/Tasks.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "linkedin/Ideas.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Tasks"
+              "icon": "lucide-file",
+              "title": "Ideas"
+            }
+          },
+          {
+            "id": "d6eae1623255880c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Workflow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Workflow"
             }
           }
         ]
@@ -194,9 +201,13 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "764aa32e7f6afe97",
+  "active": "564e705e3543166b",
   "lastOpenFiles": [
     "Create pain hypothesis.md",
+    "Workflow.md",
+    "linkedin/Ideas.md",
+    "linkedin/Notes.md",
+    "Untitled",
     "startup/-- Meet App/Tasks.md",
     "startup/-- Meet App/interviews/Adam Salficky.md",
     "Untitled 1.base",
@@ -206,9 +217,7 @@
     "startup/-- Meet App/interviews",
     "startup/templates/Naming patterns.md",
     "startup/-- Meet App",
-    "Untitled",
     "startup/skills/check-domain-availability/SKILL.md",
-    "linkedin/Ideas.md",
     "startup/skills/check-domain-availability/scripts/__pycache__/check_domains.cpython-314.pyc",
     "startup/skills/check-domain-availability/scripts/__pycache__",
     "startup/skills/check-domain-availability/scripts/check_domains.py",
@@ -217,7 +226,6 @@
     "Notebook.md",
     "2026-05-07.md",
     "startup/skills/generate-startup-names/SKILL.md",
-    "Untitled.md",
     "linkedin/Test.md",
     "CTA Founders.md"
   ]
