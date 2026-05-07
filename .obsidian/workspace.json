@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,7 +213,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "51e5c8d7245f94d1",
+  "active": "bc1509f90873ee08",
   "lastOpenFiles": [
     "Notebook.md",
     "Untitled.canvas",
