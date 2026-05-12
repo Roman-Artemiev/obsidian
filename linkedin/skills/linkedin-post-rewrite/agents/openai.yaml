@@ -1,0 +1,4 @@
+version: 1
+display_name: LinkedIn Post Rewrite
+short_description: Rewrite LinkedIn drafts for stronger hooks, cleaner structure, and better professional readability.
+default_prompt: Rewrite this LinkedIn post to improve the hook, structure, clarity, and credibility while keeping the core idea.

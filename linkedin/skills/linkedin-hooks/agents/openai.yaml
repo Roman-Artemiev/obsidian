@@ -1,0 +1,4 @@
+version: 1
+display_name: LinkedIn Hooks
+short_description: Generate sharper LinkedIn opening lines that create relevance, tension, and believable payoff.
+default_prompt: Write better LinkedIn hook options for this idea and recommend the strongest one.

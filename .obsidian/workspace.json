@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linkedin/Notes.md",
+                "file": "startup/skills/check-domain-availability/SKILL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "SKILL"
             }
           }
         ],
@@ -189,13 +189,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "bd63a0131c65f5b6",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,31 +224,42 @@
   },
   "active": "c2b1aa1df8a53765",
   "lastOpenFiles": [
-    "linkedin/Ideas.md",
     "startup/-- Meet App/Competitors/Eventee.com.md",
-    "startup/-- Meet App/Untitled.md",
-    "startup/-- Meet App/Competitors",
-    "startup/-- Meet App/interviews/Adam Salficky.md",
-    "startup/-- Meet App/Tasks.md",
-    "Notebook.md",
+    "Untitled Kanban.md",
     "Workflow.md",
-    "Create pain hypothesis.md",
+    "startup/-- Meet App/Competitors/Note.md",
+    "startup/-- Meet App/Tasks.md",
+    "startup/-- Meet App/Untitled.md",
     "linkedin/Notes.md",
-    "Untitled",
-    "Untitled 1.base",
-    "Untitled.base",
+    "linkedin/docs/superpowers/plans/2026-05-11-linkedin-skill-extensions.md",
+    "linkedin/docs/superpowers/plans",
+    "linkedin/docs/superpowers",
+    "linkedin/docs",
+    "linkedin/skills/linkedin-post-rewrite/agents/openai.yaml",
+    "linkedin/skills/linkedin-post-rewrite/agents",
+    "linkedin/skills/linkedin-post-rewrite/SKILL.md",
+    "linkedin/skills/linkedin-post-rewrite",
+    "linkedin/skills/linkedin-hooks/agents/openai.yaml",
+    "linkedin/skills/linkedin-hooks/agents",
+    "linkedin/skills/linkedin-hooks/SKILL.md",
+    "linkedin/skills/linkedin-hooks",
+    "linkedin/skills/linkedin-writing/agents/openai.yaml",
+    "linkedin/skills/linkedin-writing/assets/templates.md",
+    "linkedin/skills/linkedin-writing/references/formats.md",
+    "linkedin/skills/linkedin-writing/references/style.md",
+    "linkedin/skills/linkedin-writing/references/structure.md",
+    "linkedin/skills/linkedin-writing/references/hooks.md",
+    "linkedin/skills/linkedin-writing/references/platform.md",
+    "linkedin/skills/linkedin-writing/SKILL.md",
+    "linkedin/Ideas.md",
+    "startup/-- Meet App/interviews/Adam Salficky.md",
+    "Notebook.md",
+    "Create pain hypothesis.md",
     "Untitled.canvas",
-    "startup/-- Meet App/interviews",
     "startup/templates/Naming patterns.md",
-    "startup/-- Meet App",
     "startup/skills/check-domain-availability/SKILL.md",
-    "startup/skills/check-domain-availability/scripts/__pycache__/check_domains.cpython-314.pyc",
-    "startup/skills/check-domain-availability/scripts/__pycache__",
-    "startup/skills/check-domain-availability/scripts/check_domains.py",
-    "startup/skills/check-domain-availability/scripts",
     "2026-05-07.md",
     "startup/skills/generate-startup-names/SKILL.md",
-    "linkedin/Test.md",
-    "CTA Founders.md"
+    "linkedin/Test.md"
   ]
 }

@@ -5,6 +5,8 @@ Before talking to anyone, write this clearly:
 
 > “I believe [specific people] have a problem with [specific situation], and it causes [pain], because [current solution is insufficient].”
 
+I believe people who organize events struggle to share photos on time and it cause a lack of marketing and unsolved potential because there is not platform for it
+
 ### Output:
 - Target user (very specific)
 - Problem

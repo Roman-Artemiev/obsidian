@@ -1,0 +1,4 @@
+version: 1
+display_name: LinkedIn Writing
+short_description: Write, rewrite, and critique LinkedIn content with stronger hooks, structure, and format choice.
+default_prompt: Improve this LinkedIn content for professional relevance, readability, credibility, and the right native format.
